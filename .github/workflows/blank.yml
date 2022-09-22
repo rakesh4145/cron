@@ -23,5 +23,5 @@ jobs:
       - name: execute py script 
         env:
           SOME_SECRET: ${{ secrets.SOME_SECRET }}
-        run: add_user.py
+        run: python add_user.py
       
